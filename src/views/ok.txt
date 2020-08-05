@@ -1,0 +1,85 @@
+      <v-row 
+              class="justify-space-around ma-n3 "  
+           >
+        <v-col cols="12" sm="3" md="3" lg="3" >
+          
+          <router-link :to="`/${$i18n.locale}`" @click.native="scrollToTop">
+            <v-img
+          alt="boulotman Logo"
+
+          src="../assets/boulotmanlogo.png" 
+          transition="scale-transition"
+          width="150"
+    />
+          </router-link>
+    
+      
+        </v-col>
+        <v-col cols="12" sm="3" md="3" lg="3">
+        <v-card-text class="justify-center bold "><h2 class="text--white">{{$t('Follow Us')}}</h2></v-card-text>
+        <v-list-item-group class="justify-center grp">
+        <p class="v-list-item--link"><v-icon color="yellow"  size="24px" left>mdi-facebook</v-icon>
+        <a   href="https://www.facebook.com/boulotman">Facebook</a>  </p>
+        <p class="v-list-item--link"><v-icon color="yellow"  size="24px" left>mdi-instagram</v-icon>Instagram</p>
+        <p class="v-list-item--link"><v-icon color="yellow" size="24px" left>mdi-twitter</v-icon>Twitter</p>
+        </v-list-item-group>
+        </v-col>
+
+        <v-col cols="12" sm="3" md="3" lg="3" >      
+         <v-card-text class="justify-center"><p class="bold ">{{$t('Useful Links')}}</p></v-card-text>
+    <v-list-item-group class="justify-center  grp">
+            <p class="v-list-item--link">
+              <v-icon color="yellow" size="24px" left>mdi-book-open-page-variant</v-icon>
+              <router-link class="text--white" @click.native="scrollToTop" :to="`/${$i18n.locale}/about`">
+              {{$t('About Us')}}
+              </router-link>
+              </p>
+          <p class="v-list-item--link">
+            <v-icon color="yellow" size="24px" left>mdi-home-circle</v-icon>
+            <router-link class="text--white" @click.native="scrollToTop" :to="`/${$i18n.locale}`">{{$t('nav.Home')}}
+            </router-link>
+          </p>
+          <p class="v-list-item--link">
+            <v-icon color="yellow" size="24px" left>mdi-shield-lock-outline</v-icon>
+            <router-link class="text--white" @click.native="scrollToTop" :to="`/${$i18n.locale}/privacy-policy`" >
+            {{$t('Privacy Policy')}}</router-link>
+            </p>
+             <p class="v-list-item--link">
+            <router-link class="text-capitalize" :to="`/${$i18n.locale}/step`">{{$t('nav.FAQ')}}</router-link>
+           </p>
+           <p class="v-list-item--link">
+            <router-link  :to="`/${$i18n.locale}/rrr`">{{$t('nav.BLOG')}}</router-link>  
+           </p>
+           <p class="v-list-item--link">
+             <v-icon color="yellow" size="24px" left>mdi-book-open</v-icon>
+             <router-link class="text--white" @click.native="scrollToTop" :to="`/${$i18n.locale}/terms-and-conditions`" >
+            {{$t('Terms & Conditions')}}
+             </router-link>
+            </p>  
+    </v-list-item-group>  
+        </v-col>
+        <v-col cols="12" sm="3" md="3" lg="3" >
+
+       <v-card-text class="justify-center "><p class=" bold">{{ $t('Our Contacts')}}</p></v-card-text>
+     <v-list-item-group class="justify-center grp">
+          <p class="v-list-item--link font-smaller"><v-icon color="yellow" size="24px" left>mdi-email</v-icon><a href="https://mail.google.com/mail/?view=cm&fs=1&to=boulotman237@gmail.com">boulotman237@gmail.com</a></p>
+         <p class="v-list-item--link font-smaller"><v-icon color="yellow" size="24px" left>mdi-phone</v-icon><a href="tel: +237698884618">(+237)698884618</a></p>
+          <p class="v-list-item--link "><v-icon class="icon"  size="24px" left>mdi-phone-classic</v-icon>fix: +237 233-478-795</p>
+     </v-list-item-group>
+      
+         
+        </v-col>
+    </v-row >
+
+      <v-divider class="white" ></v-divider>
+     
+          <v-col cols="12 ">
+          
+       <v-card-text class="text-center blue-grey darken-4 mb-n5 "><p class="text-decoration-underline"><strong>{{ new Date().getFullYear() }} — </strong>
+         <strong>{{ $t('All Rights Reserved')}} </strong></p></v-card-text>
+         
+        
+   
+         
+        </v-col>
+    

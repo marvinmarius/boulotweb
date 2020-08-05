@@ -1,0 +1,424 @@
+[
+    {
+        "id": 1,
+        "services_count": 1,
+        "services": [
+            {
+                "id": 1,
+                "sub_services_count": 2,
+                "sub_services": [
+                    {
+                        "id": 1,
+                        "name": "Android E-commerce",
+                        "description": "Selling products online, thus managing users and payments.",
+                        "service": 1,
+                        "questions": [
+                            {
+                                "id": 5,
+                                "choices_count": 21,
+                                "choices": [
+                                    {
+                                        "id": 1,
+                                        "text": "Electronic appliances"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "text": "Foods"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "text": "Choes"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "text": "10000000"
+                                    },
+                                    {
+                                        "id": 6,
+                                        "text": "20 years old"
+                                    },
+                                    {
+                                        "id": 7,
+                                        "text": "what do you want?"
+                                    },
+                                    {
+                                        "id": 8,
+                                        "text": "what is ur status?"
+                                    },
+                                    {
+                                        "id": 9,
+                                        "text": "hello"
+                                    },
+                                    {
+                                        "id": 10,
+                                        "text": "trjyr"
+                                    },
+                                    {
+                                        "id": 11,
+                                        "text": "tyrjtyjty"
+                                    },
+                                    {
+                                        "id": 12,
+                                        "text": "jytrjtyrjty"
+                                    },
+                                    {
+                                        "id": 13,
+                                        "text": "rytrjy"
+                                    },
+                                    {
+                                        "id": 14,
+                                        "text": "tyj"
+                                    },
+                                    {
+                                        "id": 15,
+                                        "text": "jtyytjtyj"
+                                    },
+                                    {
+                                        "id": 16,
+                                        "text": "tyrjy"
+                                    },
+                                    {
+                                        "id": 17,
+                                        "text": "retzertz"
+                                    },
+                                    {
+                                        "id": 18,
+                                        "text": "gzere"
+                                    },
+                                    {
+                                        "id": 19,
+                                        "text": "grezgreg"
+                                    },
+                                    {
+                                        "id": 20,
+                                        "text": "gezregerg"
+                                    },
+                                    {
+                                        "id": 21,
+                                        "text": "regrezer"
+                                    }
+                                ],
+                                "text": "What old are you ?"
+                            },
+                            {
+                                "id": 1,
+                                "choices_count": 3,
+                                "choices": [
+                                    {
+                                        "id": 1,
+                                        "text": "Electronic appliances"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "text": "Foods"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "text": "Choes"
+                                    }
+                                ],
+                                "text": "What king of product do you intend to sell online ?"
+                            },
+                            {
+                                "id": 2,
+                                "choices_count": 2,
+                                "choices": [
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "text": "10000000"
+                                    }
+                                ],
+                                "text": "How many users are you targeting ?"
+                            },
+                            {
+                                "id": 3,
+                                "choices_count": 0,
+                                "choices": [],
+                                "text": "What is your estimated budget for this project ?"
+                            },
+                            {
+                                "id": 4,
+                                "choices_count": 0,
+                                "choices": [],
+                                "text": "Do you have IT Knowledge ?"
+                            },
+                            {
+                                "id": 6,
+                                "choices_count": 3,
+                                "choices": [
+                                    {
+                                        "id": 1,
+                                        "text": "Electronic appliances"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "text": "Foods"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "text": "Choes"
+                                    }
+                                ],
+                                "text": "Hello"
+                            },
+                            {
+                                "id": 7,
+                                "choices_count": 3,
+                                "choices": [
+                                    {
+                                        "id": 2,
+                                        "text": "Foods"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "text": "Choes"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    }
+                                ],
+                                "text": "World"
+                            },
+                            {
+                                "id": 8,
+                                "choices_count": 3,
+                                "choices": [
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "text": "10000000"
+                                    },
+                                    {
+                                        "id": 6,
+                                        "text": "20 years old"
+                                    }
+                                ],
+                                "text": "Favorite language ?"
+                            },
+                            {
+                                "id": 9,
+                                "choices_count": 4,
+                                "choices": [
+                                    {
+                                        "id": 1,
+                                        "text": "Electronic appliances"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "text": "Foods"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "text": "Choes"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    }
+                                ],
+                                "text": "MLell"
+                            },
+                            {
+                                "id": 10,
+                                "choices_count": 3,
+                                "choices": [
+                                    {
+                                        "id": 2,
+                                        "text": "Foods"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "text": "Choes"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    }
+                                ],
+                                "text": "fdffdg"
+                            },
+                            {
+                                "id": 11,
+                                "choices_count": 4,
+                                "choices": [
+                                    {
+                                        "id": 1,
+                                        "text": "Electronic appliances"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "text": "Foods"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "text": "Choes"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    }
+                                ],
+                                "text": "fgerge"
+                            },
+                            {
+                                "id": 12,
+                                "choices_count": 3,
+                                "choices": [
+                                    {
+                                        "id": 2,
+                                        "text": "Foods"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "text": "Choes"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    }
+                                ],
+                                "text": "trherthre"
+                            }
+                        ],
+                        "questions_count": 12
+                    },
+                    {
+                        "id": 2,
+                        "name": "Website E-Commerce",
+                        "description": "Building E-commerce website",
+                        "service": 1,
+                        "questions": [
+                            {
+                                "id": 1,
+                                "choices_count": 3,
+                                "choices": [
+                                    {
+                                        "id": 1,
+                                        "text": "Electronic appliances"
+                                    },
+                                    {
+                                        "id": 2,
+                                        "text": "Foods"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "text": "Choes"
+                                    }
+                                ],
+                                "text": "What king of product do you intend to sell online ?"
+                            },
+                            {
+                                "id": 2,
+                                "choices_count": 2,
+                                "choices": [
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "text": "10000000"
+                                    }
+                                ],
+                                "text": "How many users are you targeting ?"
+                            },
+                            {
+                                "id": 3,
+                                "choices_count": 0,
+                                "choices": [],
+                                "text": "What is your estimated budget for this project ?"
+                            },
+                            {
+                                "id": 4,
+                                "choices_count": 0,
+                                "choices": [],
+                                "text": "Do you have IT Knowledge ?"
+                            },
+                            {
+                                "id": 8,
+                                "choices_count": 3,
+                                "choices": [
+                                    {
+                                        "id": 4,
+                                        "text": "300000"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "text": "10000000"
+                                    },
+                                    {
+                                        "id": 6,
+                                        "text": "20 years old"
+                                    }
+                                ],
+                                "text": "Favorite language ?"
+                            }
+                        ],
+                        "questions_count": 5
+                    }
+                ],
+                "name": "Web Development",
+                "description": "Building web applications that allow the user interacting on the Internet",
+                "question_helper": "What kind for web application do you want to be released ?",
+                "image": "http://192.168.100.156:8000/media/boulotmanlogo_vbeca1I.png",
+                "category": 1
+            }
+        ],
+        "name": "Information Technology",
+        "description": "All about building modern Tech solutions",
+        "image": "http://192.168.100.156:8000/media/civ_engineering_PsKyqOo.jpg"
+    }
+ {
+        "id": 1,
+        "services_count": 1,
+        "services": [
+            {
+                "id": 1,
+                "sub_services_count": 1,
+                "sub_services": [
+                    {
+                        "id": 1,
+                        "name": "danse",
+                        "description": "teach how to move",
+                        "service": 1,
+                        "questions": [
+                            {
+                                "id": 1,
+                                "choices_count": 1,
+                                "choices": [
+                                    {
+                                        "id": 7,
+                                        "text": "Less than 3 people"
+                                    }
+                                ],
+                                "text": "How many people will be dancing?"
+                            }
+                        ],
+                        "questions_count": 1
+                    }
+                ],
+                "name": "Wedding Choreographers",
+                "description": "danse and sing",
+                "question_helper": "Which style(s) of dance do you want to dance on?",
+                "image": "http://localhost:8000/media/images.jpg",
+                "category": 1
+            }
+        ],
+        "name": "Weeding and event",
+        "description": "decoration and many other",
+        "image": "http://localhost:8000/media/weeding.jpg"
+    }
+]
+]
