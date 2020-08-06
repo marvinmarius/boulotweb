@@ -8,8 +8,8 @@ export default axios.create({
    Accept : 'application/json',
     "Content-Type": 'application/json',
     'Access-Control-Allow-Origin': '*',
-    //'Access-control-Allow-Headers':'*',
-    'Access-control-Allow-Methods':'*'
+    //'Access-Control-Allow-Headers':'*',
+    //'Access-Control-Allow-Methods':'*'
   },
   withCredentials: false,
 });
