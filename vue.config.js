@@ -6,7 +6,7 @@ module.exports = {
   ],
   
   devServer: {
-   //proxy: 'http://127.0.0.1:8000',
+   proxy: 'http://164.90.219.137',
  
   
    //proxy: 'http://192.168.100.214:8000',
