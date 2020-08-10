@@ -37,7 +37,7 @@
 
               <v-card-text class="text-center">
                 <p ><strong>{{service.name}}</strong></p>
-                  <p class="red--text">{{service.sub_services_count}} sub-services </p>
+               
                 
                 <p class="  hint red--text">  {{service.hint}}</p>
               </v-card-text>

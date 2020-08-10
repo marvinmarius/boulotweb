@@ -52,7 +52,7 @@ mounted(){
  this.$store.dispatch('loadAllServices')
 
  this.$store.dispatch('loadAllSubServices')
-  this.$store.dispatch('sendNotification')
+
 
 //localStorage.clear()
  //this.$store.dispatch('createCustomer')

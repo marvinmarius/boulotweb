@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import Api from '../service/api'
-import axios from 'axios'
+
 
 
 
@@ -410,38 +410,6 @@ setSnackbar({commit}, snackbar){
   commit('SET_SNACBAR',snackbar)
 },
  
-async sendNotification(){
-  try{
-    let  sender = {
-      data:{
-        body: "There is a new available job !",
-      },
-      to: "ed1YEX2LTcm21NPzUILguB:APA91bEuc89d9XXUaQPS8i7MogH70f79OtX8cI4pCSDGNjwYkv8C7QjTn8ppj8KkKpdaX6yabDgmUalOMIm8nOsOWClZK3J0FHOV5ej9Y-ZrnZ2X3UdeG8ohJJKXk1RrmL5hv4KNmdg3"
-     }
-      
-    
-     axios.create({
-      baseURL: "https://fcm.googleapis.com",
-      headers: {
-       Accept : 'application/json',
-        "Content-Type": 'application/json',
-        "Access-Control-Allow-Origin": '*',
-        "Authorization":  "AAAAmRxk7gg:APA91bEO1DoGpaNIXtd6sqjnQDlbypyoAQEjujl0C1hPYhIomNchi0NvWecwPCKYm6hwPxMBlKR_-91_tXo7RRHk5iccaW-obrAI49TxXWfE7WJjIhiuALDsIyILLvEqNBFFEFgCvFK5"
-      },
-      withCredentials: false,
-    });
-    let response = await axios.post('https://fcm.googleapis.com/fcm/send/', sender)
-    
-    console.log(response)
-    
-    
-   
-    
-  }catch(e){
-    console.error(e);
-   
-  }
-},
 
   
   
